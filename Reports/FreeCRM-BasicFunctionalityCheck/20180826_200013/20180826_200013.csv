@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FreeCRM-BasicFunctionalityCheck,,,2018-08-26 20:00:17,2018-08-26 20:00:24,6.885s,FAILED
+,,,,,,
+Test Cases/FreeCRM-Login,,Login Scenario,2018-08-26 20:00:17,2018-08-26 20:00:23,6.058s,FAILED
+openBrowser,,,2018-08-26 20:00:18,2018-08-26 20:00:23,5.545s,FAILED

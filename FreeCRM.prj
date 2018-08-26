@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Automating FREE CRM App</description>
+   <name>FreeCRM</name>
+   <tag></tag>
+   <UUID>9ec8da68-39e8-423a-b0b7-a49f74512b28</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
