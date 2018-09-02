@@ -4,7 +4,7 @@
    <name>FreeCRM-BasicFunctionalityCheck</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-26T20:03:34</lastRun>
+   <lastRun>2018-08-26T21:20:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,6 +15,6 @@
       <guid>18946a85-d0b4-4b88-97d1-2225bafe2c61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FreeCRM-Login</testCaseId>
+      <testCaseId>Test Cases/FreeCRM/FreeCRM-Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
