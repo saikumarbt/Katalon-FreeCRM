@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FreeCRM-BasicFunctionalityCheck" time="41" tests="1" failures="0" errors="0">
+   <testsuite name="FreeCRM-BasicFunctionalityCheck" tests="1" failures="0" errors="0" time="41" timestamp="2018-09-05 23:21:05" hostname="saikumar.thaniyappa - SpicityL548.SPI.COM" id="Test Suites/FreeCRM-BasicFunctionalityCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\jenkins\\workspace\\Katalon-FreeCRM-GIT\\Reports\\FreeCRM-BasicFunctionalityCheck\\20180905_232059"/>
+         <property name="logFiles" value="C:\\jenkins\\workspace\\Katalon-FreeCRM-GIT\\Reports\\FreeCRM-BasicFunctionalityCheck\\20180905_232059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saikumar.thaniyappa - SpicityL548.SPI.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="8ef710fb1076f5850337c95f254475a9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/FreeCRM/FreeCRM-Login" classname="Test Cases/FreeCRM/FreeCRM-Login" status="PASSED">
+         <system-out><![CDATA[2018-09-05 23:21:05 - [TEST_CASE][PASSED] - Test Cases/FreeCRM/FreeCRM-Login: Test Cases/FreeCRM/FreeCRM-Login
+
+2018-09-05 23:21:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 23:21:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 23:21:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.freecrm.com/index.html' successfully
+
+2018-09-05 23:21:31 - [MESSAGE][PASSED] - Navigate to 'https://www.freecrm.com/index.html' successfully
+
+2018-09-05 23:21:31 - [TEST_STEP][PASSED] - setText: Text 'saikumarbt' is set on object 'Object Repository/FreeCRM/FreeCRM-BasePage/input_username'
+
+2018-09-05 23:21:32 - [MESSAGE][PASSED] - Text 'saikumarbt' is set on object 'Object Repository/FreeCRM/FreeCRM-BasePage/input_username'
+
+2018-09-05 23:21:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/FreeCRM/FreeCRM-BasePage/input_password'
+
+2018-09-05 23:21:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FreeCRM/FreeCRM-BasePage/input_password'
+
+2018-09-05 23:21:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FreeCRM/FreeCRM-BasePage/input_btn btn-small' is clicked on
+
+2018-09-05 23:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FreeCRM/FreeCRM-BasePage/input_btn btn-small' is clicked on
+
+2018-09-05 23:21:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FreeCRM/FreeCRM-HomePage/a_ Logout' is clicked on
+
+2018-09-05 23:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FreeCRM/FreeCRM-HomePage/a_ Logout' is clicked on
+
+2018-09-05 23:21:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-05 23:21:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 23:21:05 - [TEST_SUITE][PASSED] - FreeCRM-BasicFunctionalityCheck: Test Cases/FreeCRM/FreeCRM-Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
