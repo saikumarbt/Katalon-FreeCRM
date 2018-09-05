@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RestAPITesting" time="10" tests="1" failures="1" errors="0">
+   <testsuite name="RestAPITesting" tests="1" failures="1" errors="0" time="10" timestamp="2018-09-05 17:14:50" hostname="saikumar.thaniyappa - SpicityL548.SPI.COM" id="Test Suites/RestAPITesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\KatalonStudio_Workspace\\FreeCRM\\Reports\\RestAPITesting\\20180905_171445"/>
+         <property name="logFiles" value="C:\\KatalonStudio_Workspace\\FreeCRM\\Reports\\RestAPITesting\\20180905_171445\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saikumar.thaniyappa - SpicityL548.SPI.COM"/>
+         <property name="hostAddress" value="10.0.107.71"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/RESTApi/ValidateUserDetails" classname="Test Cases/RESTApi/ValidateUserDetails" status="PASSED">
+         <system-out><![CDATA[2018-09-05 17:14:51 - [TEST_CASE][PASSED] - Test Cases/RESTApi/ValidateUserDetails: Test Cases/RESTApi/ValidateUserDetails
+
+2018-09-05 17:14:52 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/GetUserDetails)): Send request successfully
+
+2018-09-05 17:14:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-05 17:14:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-05 17:14:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-05 17:14:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-05 17:14:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RESTApi/ValidatePostUserApi" classname="Test Cases/RESTApi/ValidatePostUserApi" status="FAILED">
+         <failure type="FAILED" message="Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')"/>
+         <system-out><![CDATA[2018-09-05 17:14:58 - [TEST_CASE][FAILED] - Test Cases/RESTApi/ValidatePostUserApi: Test Cases/RESTApi/ValidatePostUserApi FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')
+
+2018-09-05 17:14:58 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/PostUser)): Send request successfully
+
+2018-09-05 17:14:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-05 17:14:59 - [TEST_STEP][FAILED] - verifyResponseStatusCode: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')
+
+2018-09-05 17:14:59 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '201'
+
+2018-09-05 17:14:59 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')]]></system-out>
+         <system-err><![CDATA[2018-09-05 17:14:58 - [TEST_CASE][FAILED] - Test Cases/RESTApi/ValidatePostUserApi: Test Cases/RESTApi/ValidatePostUserApi FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 17:14:50 - [TEST_SUITE][FAILED] - RestAPITesting: Test Cases/RESTApi/ValidatePostUserApi FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')]]></system-out>
+      <system-err><![CDATA[2018-09-05 17:14:50 - [TEST_SUITE][FAILED] - RestAPITesting: Test Cases/RESTApi/ValidatePostUserApi FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '201')]]></system-err>
+   </testsuite>
+</testsuites>

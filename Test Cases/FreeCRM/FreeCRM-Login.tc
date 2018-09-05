@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Scenario</description>
+   <name>FreeCRM-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dfc3c08-49ce-43f0-8d93-09258daad873</testCaseGuid>
+</TestCaseEntity>

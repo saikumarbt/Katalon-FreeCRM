@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RestAPITesting,,,2018-09-05 17:14:50,2018-09-05 17:15:01,10.846s,FAILED
+,,,,,,
+Test Cases/RESTApi/ValidateUserDetails,,,2018-09-05 17:14:51,2018-09-05 17:14:58,7.138s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/GetUserDetails)),,,2018-09-05 17:14:52,2018-09-05 17:14:56,3.316s,PASSED
+verifyResponseStatusCode,,,2018-09-05 17:14:56,2018-09-05 17:14:56,0.066s,PASSED
+verifyElementPropertyValue,,,2018-09-05 17:14:56,2018-09-05 17:14:56,0.182s,PASSED
+,,,,,,
+Test Cases/RESTApi/ValidatePostUserApi,,,2018-09-05 17:14:58,2018-09-05 17:15:01,2.932s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/PostUser)),,,2018-09-05 17:14:58,2018-09-05 17:14:59,0.567s,PASSED
+verifyResponseStatusCode,,,2018-09-05 17:14:59,2018-09-05 17:14:59,0.021s,FAILED

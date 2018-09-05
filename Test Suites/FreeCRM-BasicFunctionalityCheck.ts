@@ -4,7 +4,7 @@
    <name>FreeCRM-BasicFunctionalityCheck</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-26T21:20:18</lastRun>
+   <lastRun>2018-09-05T21:26:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

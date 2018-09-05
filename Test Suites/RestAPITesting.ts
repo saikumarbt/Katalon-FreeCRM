@@ -4,7 +4,7 @@
    <name>RestAPITesting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-02T17:37:45</lastRun>
+   <lastRun>2018-09-05T17:14:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RESTApi/ValidateUserDetails</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0bf3271-973c-4ccd-b985-c008b7901296</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RESTApi/ValidatePostUserApi</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

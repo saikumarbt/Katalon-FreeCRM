@@ -1,0 +1,12 @@
+1
+00:00:00,707 --> 00:00:00,728
+1. Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/GetUserDetails))
+
+2
+00:00:03,482 --> 00:00:03,483
+5. verifyResponseStatusCode
+
+3
+00:00:03,518 --> 00:00:03,523
+9. verifyElementPropertyValue
+
